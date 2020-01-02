@@ -28,7 +28,7 @@ public class Assignment2 {
      driver.findElement(By.id("AirlineAutocomplete")).click();
      driver.findElement(By.id("SearchBtn")).click();
      
-     driver.findElement(By.id("homeErrorMessage")).getText();
+     System.out.println(driver.findElement(By.id("homeErrorMessage")).getText());
      
      
      
