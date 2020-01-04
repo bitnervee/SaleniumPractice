@@ -7,9 +7,9 @@ public class rediifxpath {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "G:\\salenium project\\chromedriver.exe");
-		
-		WebDriver driver=new ChromeDriver();
-		
+
+		WebDriver driver = new ChromeDriver();
+
 		driver.get("https://www.rediff.com/");
 		driver.findElement(By.cssSelector("a[title*='Sign in']")).click();
 		driver.findElement(By.xpath("//input[@id='login1']")).sendKeys("USERNAME");

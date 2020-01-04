@@ -7,7 +7,7 @@ public class TestId {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver","G:\\salenium project\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "G:\\salenium project\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		driver.get("http://www.qaclickacademy.com/interview.php");
 		driver.findElement(By.xpath("//li[text()=' Selenium ']")).click();
