@@ -30,7 +30,7 @@ public class GridTable {
      int Totalvalue=Integer.parseInt(total);
      if(sum==Totalvalue)
      {
-    	 System.out.println("Extravalue is equal to Totalvalue" +Totalvalue);
+    	 System.out.println("Extravalue is equal to Totalvalue  :-" +Totalvalue);
      }
      else
      {
